@@ -4,17 +4,17 @@
 
 [왜 node.js인가]
 
--V8엔진 사용
--비동기방식(non blocking IO)
--node.js 창시자는 js로 백엔드를 구현해보자고 만듦
--강사님이 node.js 쓰는 이유는 프론트엔드와 궁합이 잘맞음(JSON데이터를 주고받는데 편리), 최근 서버사이드 플랫폼보다 프론트엔드의 변화의 속도가 더 빠르다
+- V8엔진 사용
+- 비동기방식(non blocking IO)
+- node.js 창시자는 js로 백엔드를 구현해보자고 만듦
+- 강사님이 node.js 쓰는 이유는 프론트엔드와 궁합이 잘맞음(JSON데이터를 주고받는데 편리), 최근 서버사이드 플랫폼보다 프론트엔드의 변화의 속도가 더 빠르다
 
 [css]
 1. css 박스모델
 padding vs. margin
 
--border 와 contents사이는 padding로 조절(padding-top,bottom,left,right,)
--content 와 다른 contents 사이는 margin으로 조절
+- border 와 contents사이는 padding로 조절(padding-top,bottom,left,right,)
+- content 와 다른 contents 사이는 margin으로 조절
 
 2. css flat box
 header>
