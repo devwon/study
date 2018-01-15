@@ -1,7 +1,9 @@
 # study
 
 [node.js로 구현하는 웹서비스 개발#1]
+
 [왜 node.js인가]
+
 -V8엔진 사용
 -비동기방식(non blocking IO)
 -node.js 창시자는 js로 백엔드를 구현해보자고 만듦
