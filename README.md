@@ -44,7 +44,7 @@ semantic ui, boot forest
 상단 메뉴바
 
 [node.js로 구현하는 웹서비스 개발#2]
-javascript란?
+1. javascript란?
 
 
 여러 플랫폼 제작사에서 javascript 개발자를 끌어 안기위한 환경 조성
@@ -58,7 +58,7 @@ var arr = new Array();
 
 3. 객체형 
 
-3-1. 리터럴 표현법(literal)
+3-1. 리터럴 표현법(literal)(json과 비슷)
 
 	var a = {
     numberVal : 111,
