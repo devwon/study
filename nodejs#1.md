@@ -70,9 +70,9 @@ Padding vs. Margin
 
 4. table
 
-table: tr간의 구분
-table-bordered: 양옆의 구분선
-table-hover: 마우스 올릴시 배경색
+- table: tr간의 구분
+- table-bordered: 양옆의 구분선
+- table-hover: 마우스 올릴시 배경색
 
 5. bootstrap plugin
 
