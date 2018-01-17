@@ -32,7 +32,7 @@ Padding vs. Margin
 
 3. background
 <div style="background:url('https://nodejs.junyoung.me/demo/images/1.jpg’) 0 0 no-repeat; color:#fff; width:200px; height:300px;">
-    첫번째
+    백그라운드 연습
 </div>
 
 4. css float box: 주로 상단 네비게이션 만들때나 레이아웃을 만들 때 많이 쓰임
