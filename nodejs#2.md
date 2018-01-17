@@ -1,5 +1,7 @@
-##nodejs#2
 
+#nodejs#2
+--
+[javascript]
 1. javascript란?
 
 
@@ -32,7 +34,7 @@
 
 - 객체형
 
-1) 리터럴 표현법(literal)(JSON과 비슷)
+2-1) 리터럴 표현법(literal)(JSON과 비슷)
 var로 변수선언
 멤버간에는 ,로 구분
 생성과 동시에 객체를 생성
@@ -50,7 +52,7 @@ var로 변수선언
 => object 출력
 - 추가하려면 a.addNumber = 222;
 
-2) 함수표현법
+2-2) 함수표현법
 
 - 어떤 일정한 틀을 만들어 놓고 생성, 내부가 어떻게 구현되었나 생각하지 않고 제공되는 함수와 변수를 사용
 
@@ -61,9 +63,9 @@ function test(name, title){
 var myTest = new test( "park" , "jjjj")
 console.log(myTest.name);
 
-2-1) public 변수
+2-2-1) public 변수
    함수내에서 this.name 멤버생성
-2-2) private 변수
+2-2-2) private 변수
    함수내에서 var로 멤버생성
    
 	function test(name, title){
@@ -103,7 +105,7 @@ Global 변수(전역변수)
 
 [jQuery]
 
-jQuery란?
+1. jQuery란?
 
 	- 자바스크립트 라이브러리
 	- DOM을 컨트롤하거나 소스를 짧고 직관적으로 작성가능
