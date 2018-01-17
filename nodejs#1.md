@@ -36,20 +36,22 @@ Padding vs. Margin
 </div>
 
 4. css float box: 주로 상단 네비게이션 만들때나 레이아웃을 만들 때 많이 쓰임
-<div>
-    <img src="http://nodejs.junyoung.me/demo/images/2.jpg" style="float: right; " alt="강아지">
-    플로트연습
-</div>
-
+			<html><body>
+				<div>
+			<img src="http://nodejs.junyoung.me/demo/images/2.jpg" style="float: right; " alt="강아지">
+			    플로트연습
+			</div>
+			</body>	
+			</html>
 
 5.  media query(반응형layout을 설정하는 방법)
 
-@media(max-width: 600px){//브라우저의 창사이즈가 최대 600px일때
-	.width600{
-		width: 100% !important;
-		float: none;
-	}
-}
+		@media(max-width: 600px){//브라우저의 창사이즈가 최대 600px일때
+			.width600{
+			width: 100% !important;
+			float: none;
+			}
+		}
 
 [bootstrap]
 설정 link rel로 cdn으로 받아온다.
