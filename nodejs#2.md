@@ -1,5 +1,5 @@
 
-#nodejs#2
+nodejs#2
 --
 [javascript]
 1. javascript란?
