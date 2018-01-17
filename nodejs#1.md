@@ -59,24 +59,26 @@ Padding vs. Margin
 
 [bootstrap]
 
-설정 link rel로 cdn으로 받아온다.
+1. 설정: link rel로 cdn으로 받아온다.
+2. btn 종류 많다.
 
-- btn 종류 많다.
-
-btn btn-default, btn-primary, btn-danger, btn-info, btn-warning
-layout
+	btn btn-default, btn-primary, btn-danger, btn-info, btn-warning
+3. layout
 	col-sm-(1~12)->sm은 small device
 	col-md
-- table
+
+
+4. table
 
 table: tr간의 구분
 table-bordered: 양옆의 구분선
 table-hover: 마우스 올릴시 배경색
 
-- bootstrap plugin
+5. bootstrap plugin
 
-ex)SB Admin(관리자 페이지), summernote(에디터)
-semantic ui, boot forest
+	ex)SB Admin(관리자 페이지), summernote(에디터)
+	semantic ui, boot forest
 
-- navbar
+6. navbar
+
 	상단 메뉴바
