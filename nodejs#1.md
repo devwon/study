@@ -8,20 +8,23 @@
 	- 비동기 방식의 단점은 하나의 스레드가 모든 요청을 처리하므로 긴요청이 걸리는 작업이 있으면 다음 작업처리에 대기하게된다-> 웹서버등의 DB호출등에 최적화
 - node.js 창시자는 front언어로 유명한 js로 백엔드를 구현해보자고 만듦
 - 강사님이 node.js 쓰는 이유는 프론트엔드와 궁합이 잘맞음(JSON데이터를 주고받는데 편리), 최근 서버사이드 플랫폼보다 프론트엔드의 변화의 속도가 더 빠르다
+
 [웹접근성]
 - 간단히 말하면 브라우저에 상관없이 같은 내용을 보여주는 것!(웹표준에 맞게 작성해서)ex) 눈이 안보이는 사람은 스크린리더기(alt태그 사용)로, 인터넷 속도가 느린 사람은 css를 끄고도 정보를 습득가능하게
+
 [HTML5]
 IE8이하에서 HTML5태그 쓰는법
+
 [css]
 *class 는 . /id는 #
-우선순위(모든걸 우선하는 !important)
+1. 우선순위(모든걸 우선하는 !important)
 id>>class이고 1. style선언 2. <style></style> head 안 선언 3. 외부 link선언 
 2. css 박스모델
 
 Padding vs. Margin
 
-- border 와 content사이는 padding로 조절(padding-top/bottom/left/right)
-- element 와 다른 element 사이는 margin으로 조절(margin-top/bottom/left/right)
+	- border 와 content사이는 padding로 조절(padding-top/bottom/left/right)
+	- element 와 다른 element 사이는 margin으로 조절(margin-top/bottom/left/right)
 
 
 
