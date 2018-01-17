@@ -1,28 +1,30 @@
 ##nodejs#2
 
-javascript란?
+1. javascript란?
 
 
-여러 플랫폼 제작사에서 javascript 개발자를 끌어 안기위한 환경 조성
-VS CODE, SLACK -made by js
+- 여러 플랫폼 제작사에서 javascript 개발자를 끌어 안기위한 환경 조성
+- VS CODE, SLACK -made by js
 
 2. 변수
 
-동적언어이므로 자료형 선언할 필요없이 var 로 선언
+*동적언어이므로 자료형 선언할 필요없이 var 로 선언
 
 	var arr = new Array(“1번째”,”2번째”);//array 0부터 시작
- 자바스크립트 변수는 기본자료형(undefined도 포함)과 객체형 두가지로 나뉜다.
+	
+*자바스크립트 변수는 기본자료형(undefined도 포함)과 객체형 두가지로 나뉜다.
 - 기본자료형
 
 기본 자료형	설명
-Boolean	논리적인 요소를 나타내고, (true 와 false)
-Null	객체 값이 존재하지 않는다는 것을 의미
-Undefined	값을 할당하지 않음
-Number	숫자형
-String	문자형
-Symbol	ECMAScript 6 에서 추가, 유일하고 변경 불가
+- Boolean	논리적인 요소를 나타내고, (true 와 false)
+- Null		객체 값이 존재하지 않는다는 것을 의미
+- Undefined	값을 할당하지 않음
+- Number	숫자형
+- String	문자형
+- Symbol	ECMAScript 6 에서 추가, 유일하고 변경 불가
 
 *배열 출력시 IE9부터 사용가능한 forEach 사용법
+
 	forEach( ! IE9부터 사용가능
 		arr.forEach(function(value){
     		console.log(value);
@@ -36,19 +38,18 @@ var로 변수선언
 생성과 동시에 객체를 생성
 
 	var a = {
-    numberVal : 111,
-    arrayVal : "zzz",
-    arrayList : [1,2,3],
-    Speack : function(){
-        consoloe.log("function");
-    }
-}
-console.log(a);
-
+    		numberVal : 111,
+    		arrayVal : "zzz",
+    		arrayList : [1,2,3],
+    		Speack : function(){
+        	consoloe.log("function");
+    		}
+	}
+	console.log(a);
+	//멤버와 값을 출력
 => object 출력
 - 추가하려면 a.addNumber = 222;
 
-//멤버와 값을 출력
 2) 함수표현법
 
 - 어떤 일정한 틀을 만들어 놓고 생성, 내부가 어떻게 구현되었나 생각하지 않고 제공되는 함수와 변수를 사용
@@ -64,6 +65,7 @@ console.log(myTest.name);
    함수내에서 this.name 멤버생성
 2-2) private 변수
    함수내에서 var로 멤버생성
+   
 	function test(name, title){
 		this.name = name;//public variable
 		this.title = title;
@@ -87,11 +89,13 @@ Global variable 전역변수
 3. 상속
   - ECMAScript5에서 Object.creat(): 인자로 prototype을 넘긴다.
   - ECMA6 에서 extends
+  
 	    class Dog extends Animal {
   		     speak() {
     			console.log(this.name + ' barks.');
-  		}
-	}
+  			}
+		}
+	
 Global 변수(전역변수)
 	- var 없이 선언
 	- 글로벌 변수로 선언시 window객체의 멤버가 됨(window.variable)
@@ -113,6 +117,7 @@ jQuery란?
 	- $(‘.a_id input[name=abc]’)//a_id다음 abc 선택가능
 3. css
 	- css 속성지정
+	
 		$(‘#actionDiv’).click(function(){
 			$(this).css(‘color’,’red’);
 		});
