@@ -150,10 +150,11 @@ JS와 잘 맞는 DB
 - json-style의 document형태로 저장하는 오픈소스 NoSQL 데이터 베이스
 - RDBMS VS. MongoDB
 
----
-RDMS: MongoDB
-Database: Database
----
+RDMS | MongoDB
+------------ | -------------
+Database | Database
+Content in the first column | Content in the second column
+
 - 하나하나가 문서형태(json)로 되있음
 - NoSQL : 스키마 없이 사용가능
 - 동적 스키마 : 필드에 맞추어서 넣지 않아도 되고, 입력시마다 필드를 추가 후 넣기 가능(RDBMS는 ALTER TABLE 해야되는데 이건 안해도 돼!)
