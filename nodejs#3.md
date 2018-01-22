@@ -1,7 +1,8 @@
 [node.js]-1
 
 
-즉시실행익명함수(모듈작성패턴)
+1) 즉시실행익명함수(모듈작성패턴)
+
 - 외부에서 내부 변수에 접근 못하게
 - 내부에서 변수가 겹치지 않게
 - 외부 변수에 영향을 받지 않음
@@ -14,44 +15,46 @@
 	})();<-외부 변수에 영향을 받지 않는다!
 
 - 함수 실행 후 return문으로 내가 원하는 변수만 제공 가능
-	var test = (function(){
-		var a= “1”;
-		return{
-			b : “2”;
-			c : “3”;
-		};
-	})();
-	console.log(test.a); // undefined
-	console.log(test.b); // 2
+
+		var test = (function(){
+			var a= “1”;
+			return{
+				b : “2”;
+				c : “3”;
+			};
+		})();
+		console.log(test.a); // undefined
+		console.log(test.b); // 2
 
 
-console.log(test); // 20
-라이브러리를 만들경우, 모듈 작성 순서!
-	(function(){
-    		var test = 10;
-    		window.test = test; //외부로 변수 출력
-	})();
-	console.log(test);
+		console.log(test); // 20
+- 라이브러리를 만들경우, 모듈 작성 순서!
+		
+		(function(){
+    			var test = 10;
+    			window.test = test; //외부로 변수 출력
+		})();
+		console.log(test);
 
 모듈 분리
 
 변수 모듈에 영향을 안받아
 
-콜백 패턴
+2) 콜백 패턴
 
-	인자를 여러개 받고 싶으면 arguments변수 사용
+인자를 여러개 받고 싶으면 arguments변수 사용
 
-메서드 체이닝(함수가 이어져서 쏴지는 것)
+3) 메서드 체이닝(함수가 이어져서 쏴지는 것)
 	
 	a().b();
 
-prototype(js는 prototype기반 언어)
+4) prototype(js는 prototype기반 언어)
 
 - 함수 생성시 같은 이름의 prototype 객체 생성
 
 - 프로토타입은 함수 참조 계속해서 가르킨다. 서로 참조!
 
-  *객체 생성시 생성자가 prototype 객체를 참조
+  *객체 생성시 생성자가 prototype 객체를 참조
 
 
 
@@ -72,6 +75,7 @@ prototype(js는 prototype기반 언어)
 1 === “1” -> false (값+형태까지 비교)
 
 prototype은 공유하는 객체(유동적으로 바꿀 수 있어)
+
         function Car(){ }
         var myCar1 = new Car();
         var myCar2 = new Car();
@@ -88,6 +92,7 @@ prototype은 공유하는 객체(유동적으로 바꿀 수 있어)
 
 
 - property 출력해보기
+
         function Car(){
             this.name = "첫번째";
             this.title = "타이틀"
@@ -128,8 +133,8 @@ java의 new와 비슷하게 구현(new가 더 빠름)
 
 - prototype이 변수도 가져올 수 있도록 두가지 방법
 1. defineProperty로 변수 설정하거나
-set : 변수 바꾸거나 셋팅
-get : 변수 부르기
+- set : 변수 바꾸거나 셋팅
+- get : 변수 부르기
 2. fn.call(객체명);<-object의 property를 다 가져옴!
 
 
