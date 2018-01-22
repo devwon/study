@@ -153,7 +153,10 @@ JS와 잘 맞는 DB
 RDMS | MongoDB
 ------------ | -------------
 Database | Database
-Content in the first column | Content in the second column
+Table | Collection
+Row | Document
+Column | key/field
+Primary key | ObjectID
 
 - 하나하나가 문서형태(json)로 되있음
 - NoSQL : 스키마 없이 사용가능
