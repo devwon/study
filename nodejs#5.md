@@ -70,11 +70,11 @@ MVC
 
 - 모델작성Model 
 
-models/ContactsModel.js
+  - models/ContactsModel.js
 
 - 라우팅Controller
 
-routes/contacts.js
+  - routes/contacts.js
 
 - 뷰폴더View
 
