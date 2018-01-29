@@ -1,12 +1,16 @@
-## [CRUD 구현]
+[CRUD 구현]
+---
+
+Creat
+Read
+Update
+Delete
 
 [Mongoose]
 
 Mongoose라는 패키지로 스키마 없는 MONGODB의 스키마 사용하기! 
 1. MODELS 폴더 안에 사용자는 어떤 필드를 받는다는걸 기술해놓을 수 있다.
 2. VALIDATION 유효성 체크를 위한 MONGOOS 검증 코드에 한 줄만 추가하면 됨.
-
-mongoose.model(‘ collection명’,
 
 
 [MODEL]
