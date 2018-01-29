@@ -46,18 +46,20 @@ res.render는 뿌려줘
 res.redirect( /admin/products)<- 저장되고나서
 
 //강사님 메모
-GET /admin/products
-admin.js
-views/admin/products.ejs
-GET /admin/products/write
-views/admin/form.ejs
-POST /admin/products/write
-res.redirect(  /admin/products )
-res.render( 템플릿위치 , 변수들  )
-템플릿 불러오기 include
+- GET /admin/products
+- admin.js
+- views/admin/products.ejs
+- GET /admin/products/write
+- views/admin/form.ejs
+- POST /admin/products/write
+- res.redirect(  /admin/products )
+- res.render( 템플릿위치 , 변수들  )
+
+- 템플릿 불러오기 include
+
 router.메서드( URL , 콜백함수 );
 
-코드가 더러워지지 않게 가상변수!
+코드가 더러워지지 않게 가상변수 생성,사용!
 
 [POSTMAN]-later
 
@@ -66,18 +68,23 @@ router.메서드( URL , 콜백함수 );
 
 MVC
 
-모델작성Model 
+- 모델작성Model 
+
 models/ContactsModel.js
 
-라우팅Controller
+- 라우팅Controller
+
 routes/contacts.js
 
-뷰폴더View
-views/contacts/list.ejs
-views/contacts/form.ejs
-URL
-/contacts  글리스트
-/contacts/write 글작성
+- 뷰폴더View
+
+  - views/contacts/list.ejs
+  - views/contacts/form.ejs
+
+- URL
+
+  - /contacts  글리스트
+  - /contacts/write 글작성
 /contacts/detail/:id  상세글보기
 /contacts/edit/:id 글수정하기
 /contacts/delete/:id 글삭제하기
