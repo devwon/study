@@ -25,8 +25,8 @@
 
 ### [rest api]
 
-GET /users -> 사용자 전체 리스트를 보는
-POST /users -> 사용자를 추가
-GET /users/:id -> 사용자 한명의 데이터
-PUT /users/:id -> 사용자 한명 수정
-DELETE /users/:id -> 사용자 한명 삭제
+- GET /users -> 사용자 전체 리스트를 보는
+- POST /users -> 사용자를 추가
+- GET /users/:id -> 사용자 한명의 데이터
+- PUT /users/:id -> 사용자 한명 수정
+- DELETE /users/:id -> 사용자 한명 삭제
