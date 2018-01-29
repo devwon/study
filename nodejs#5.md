@@ -9,20 +9,21 @@ mongoose.model(‘ collection명’,
 
 
 [MODEL]
+----
 DB관련
 
 identitycounters collection에는 기준이 되서 count할 수 있게 해줌
 
 findOne 한 row만 가져옴
-----
-[VIEWS]-템플릿을 넣는 곳
 
+[VIEWS]-템플릿을 넣는 곳
+----
 HTML
 view engine 뷰엔진
 확장자 .ejs
-----
-[CONTROLLER]
 
+[CONTROLLER]
+----
 *router 잘 정리하자!
 GET /admin/products
 
