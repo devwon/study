@@ -1,6 +1,6 @@
-promise 연습: reserve, reject
+- promise 연습: reserve, reject
 
-promise.all -> array로
+- promise.all -> array로
 
 
 
@@ -44,8 +44,9 @@ try , catch 로 에러처리 권장
 [위지윅 에디터]-summernote
 cf) ckeditor, naver editor
 
-- <%= html 태그가 그대로
-- <%- html 태그 인식해서
+ ### <%= vs. <%-
+- <%= 는 html 태그가 그대로
+- <%- 는 html 태그 인식해서
 
 summernote에서 file upload
 
