@@ -1,5 +1,17 @@
-- promise 연습: reserve, reject
+### promise 연습: reserve, reject
 
+[1초 뒤에 숫자 출력하는 예제]
+
+        function printLater(number) {
+            setTimeout(
+                function() { 
+                    console.log(number); 
+                },
+                1000
+            );
+        }
+
+        printLater(1);
 - promise.all -> array로
 
 
