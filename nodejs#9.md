@@ -94,6 +94,6 @@ cartList[10].cartNum
 예시)
 %7B%229%22%3A%7B%22number%22%3A%223%22%2C%22amount%22%3A%222700%22%2C%22thumbnail%22%3A%22products-1517830155901.jpeg%22%2C%22name%22%3A%221%uBC88%uC9F8%20%uC774%uBBF8%uC9C0%22%7D%7D
 
-*JSON.parse 하면 
+**JSON.parse 하면 
 
-*js 객체로 가져올 수 있음
+**js 객체로 가져올 수 있음
