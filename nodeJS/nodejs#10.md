@@ -5,9 +5,9 @@ form의 hidden에 개수,총가격 값을 담음
 
 2. 장바구니 담기
 
-ex)
-cartList[10].amount
-cartList[10].cartNum
+  ex)
+  cartList[10].amount
+  cartList[10].cartNum
 
 - 담기 액션
 
@@ -35,12 +35,12 @@ HW-메인에서 더보기 누르면 사진 더 나오는 거
 
 [장바구니]
 
--array like object
+- array like object
 : object.keys(obj)
 
 array.length prototype
 
-실제 서비스에서는 logout하는 시점에 쿠키+id를 DB에 담는다. 쿠키는 비회원때문에
+- 실제 서비스에서는 logout하는 시점에 쿠키+id를 DB에 담는다. 쿠키는 비회원때문에
 
 delete cartList[productId];  //지우는 부분//literal 객체에서 한 줄이 삭제됨
 
