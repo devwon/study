@@ -1,7 +1,7 @@
 # greedy algorithm 이용한 1이 될 때까지 문제
 
 
-def til_become_one(n, k):
+def til_become_one(n: int, k: int) -> int:
     result = 0
 
     while True:
@@ -18,10 +18,13 @@ def til_become_one(n, k):
 
     # 마지막으로 남은 수에 대하여 1씩 빼기
     result += (n - 1)
-    print(result)
+
+    return result
 
 
 # n, k를 공백을 기준으로 구분하여 입력 받기
 n, k = map(int, input().split())
 
-til_become_one(n, k)
+res = til_become_one(n, k)
+
+print(res)

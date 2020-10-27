@@ -1,7 +1,7 @@
 # greedy algorithm 이용한 곱하기 혹은 더하기 문제
 
 
-def multiply_or_plus(data):
+def multiply_or_plus(data: str) -> int:
     # 첫 번째 문자를 숫자로 변경하여 대입
     result = int(data[0])
 
@@ -12,8 +12,9 @@ def multiply_or_plus(data):
             result += num
         else:
             result *= num
-    print(result)
+    return result
 
 
 data = input()
-multiply_or_plus(data)
+res = multiply_or_plus(data)
+print(res)
